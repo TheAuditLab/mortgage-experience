@@ -1,0 +1,43 @@
+.trustpilotReviews {
+  position: relative;
+  background-image: url("/wp-content/uploads/2021/10/ME2@2x.png");
+  background-position: 100% 0;
+  padding: 75px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  @media #{$xxs-device} {
+    padding: 180px 0px 0 0px;
+  }
+
+  .review {
+    max-width: 65%;
+   background-color: white;
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.4);
+    border-radius: 26px;
+  padding:30px 20px;
+
+    @media #{$sm-device} {
+      max-width: 100%;
+      width:100%;
+      padding: 30px 0;
+    }
+  }
+  @media #{$sm-device} {
+   .trustlogo {
+      display: none!important;
+
+   }
+  }
+  .trustlogo {
+    img{
+      max-width: 75%;
+    }
+    .trustpilot-widget {
+      margin-left: -40px;
+      @media #{$sm-device} {
+        margin-left: 0px;
+      }
+    }
+  }
+}

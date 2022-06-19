@@ -1,0 +1,163 @@
+/*=======================
+Background Colors
+==========================*/
+.bg {
+  &-egg-white {
+    background-color: #FFEFBF;
+  }
+
+  &-offwhite {
+    background-color: $offwhite;
+  }
+
+  &-ash {
+    background-color: #f1f1f1;
+  }
+
+  &-soft-pink {
+    background-color: #FFCFBF;
+  }
+
+  &-dodger-blue {
+    background-color: #cde2ff;
+  }
+
+  &-magic-mint {
+    background-color: #AFF1D3;
+  }
+
+  &-brand {
+    background-color: $brand-color;
+  }
+
+  &-black {
+    background-color: $black !important;
+  }
+
+  &-soft-black {
+    background-color: $black-soft;
+  }
+
+  &-navy {
+    background-color: $navy;
+  }
+&-purple {
+    background-color: $purple;
+  }
+
+  &-soft-sweet {
+    background-color: #FFDFBF;
+  }
+  &-grey {
+    background-color: #E6E6E6;
+  }
+  &-beige {
+    background-color: #C6C0BF;
+  }
+  &-blue {
+    background-color: #1B9CBB;
+  }
+  &-brown {
+    background-color: #8E8480;
+  }
+}
+
+.product-tab-wrapper {
+  .slick-list {
+    .slick-active {
+      &:first-child, &:last-child {
+        opacity: 0.4;
+      }
+    }
+  }
+}
+/*=======================
+Brand editor Colors (WordPress)
+        $white = '#fff';
+        $black = '#000';
+        $purple = '#483C5E';
+        $yellow = '#fbbf00';
+        $gray = '#737166';
+        $lightgray = '#E6E6E6';
+        $softblack = '#222222';
+        $blue = '#1B9CBB';
+==========================*/
+.has-white-color {
+  color:$white;
+}
+.has-black-color {
+  color:$black;
+}
+.has-purple-color {
+  color:$purple;
+}
+.has-yellow-color {
+  color:$yellow;
+}
+.has-gray-color {
+  color:$gray;
+}
+.has-lightgray-color {
+  color:$lightgray;
+}
+.has-softblack-color {
+  color:$softblack;
+}
+.has-blue-color {
+  color:$blue;
+}
+
+.has-white-background-color {
+  background-color:$white;
+}
+.has-black-background-color {
+  background-color:$black;
+  &:hover {
+    background-color:$blue;
+  }
+}
+.has-purple-background-color {
+  background-color:$purple;
+  &:hover {
+    background-color:$blue;
+  }
+}
+.has-yellow-background-color {
+  background-color:$yellow;
+  &:hover {
+    background-color:$blue;
+  }
+}
+.has-gray-background-color {
+  background-color:$gray;
+  &:hover {
+    background-color:$blue;
+  }
+}
+.has-lightgray-background-color {
+  background-color:$lightgray;
+  &:hover {
+    background-color:$blue;
+  }
+}
+.has-softblack-background-color {
+  background-color:$softblack;
+}
+.has-blue-background-color {
+  background-color:$blue;
+  &:hover {
+    background-color:$blue;
+  }
+}
+.has-overlay-gray-background-color {
+  background-color:$overlaygray;
+}
+.has-overlay-beige-background-color {
+  background-color:$overlaybeige;
+}
+.has-overlay-blue-background-color {
+  background-color:$overlayblue;
+}
+.has-overlay-brown-background-color {
+  background-color:$overlayblue;
+}

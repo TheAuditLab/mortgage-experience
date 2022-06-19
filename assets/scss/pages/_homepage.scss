@@ -1,0 +1,57 @@
+.homeCTA {
+  background-color:rgba(56,147,172,0.6);
+  padding: 10px;
+  text-align: center;
+  width: 90%;
+  min-height: 300px;
+margin-top:50px;
+
+  @media #{$sm-device} {
+   display: none;
+  }
+  svg {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size:0.8rem!important;
+  }
+}
+
+.sectorsBlock {
+  background-color:$brand-color;
+  color: $white;
+
+  h3 {
+    color: $white;
+
+    &:after {
+      content: "";
+      display: block;
+        width: 20%;
+      padding-top: 20px;
+      border-bottom: 2px solid $white;
+    }
+    }
+  }
+
+.aboutBlock {
+  background-color:$white;
+  color: $paragraph;
+
+  h3 {
+    color: $paragraph;
+
+    &:after {
+      content: "";
+      display: block;
+      width: 20%;
+      padding-top: 20px;
+      border-bottom: 2px solid $paragraph;
+    }
+  }
+}

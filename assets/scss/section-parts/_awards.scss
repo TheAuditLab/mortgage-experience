@@ -1,0 +1,45 @@
+.awards-block {
+  margin: 30px 0;
+  padding:15px 30px;
+  -webkit-box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.3);
+  box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.3);
+  min-height: 300px;
+  border-radius: 0px;
+
+  @media #{$xs-device} {
+    margin: 10px 0;
+  }
+}
+.awardsBlock {
+  h3 {
+    text-align: right;
+    max-width: 60%;
+    float: right;
+    font-size:32px ;
+    margin: 5px 0;
+
+    @media #{$sm-device} {
+      text-align: center;
+      max-width: 100%;
+      margin: 5px 0 20px 0;
+    }
+  }
+  .awardsImg {
+    max-width: 50%;
+  }
+  img {
+    max-width: 75%;
+  }
+  p {
+    padding: 0;
+    font-weight: 500;
+    line-height: 1.4rem;
+  }
+  .awardsCopy {
+    max-width: 60%;
+  }
+}
+
+
+

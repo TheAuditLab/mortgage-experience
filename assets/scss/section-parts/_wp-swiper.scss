@@ -1,0 +1,135 @@
+/*=============================
+Start Swiper
+===============================*/
+.mySwiper {
+  position: relative;
+
+  .swiper-slide {
+    position: relative;
+
+    .left-slide {
+      padding: 30px 30px;
+      margin-top: 3%;
+      z-index: 101;
+      margin-bottom: 0;
+
+      img {
+        max-width: 70%;
+      }
+
+      @media #{$sm-device} {
+        padding: 55px 50px 25px 50px;
+
+        img {
+        display: none;
+        }
+      }
+      h2 {
+        font-weight: 600;
+        color: $brand-color;
+        margin-bottom:10px;
+
+        @media #{$sm-device} {
+          color: $white;
+          margin: 0;
+        }
+      }
+
+      p {
+        color: $brand-color;
+        padding: 15px 0px 30px 0px;
+
+        @media #{$sm-device} {
+          color: $white;
+          padding: 10px 0px 10px 0px;
+        }
+      }
+
+      .slide-button {
+        margin: 10px;
+
+        &:hover {
+          background-color: $yellow;
+        }
+      }
+    }
+
+    .right-slide {
+      padding: 30px 0 0 0;
+      background-image: url("../../dist/img/slider-bg.png");
+      background-size: contain;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      height: 100%;
+
+
+        .color-overlay {
+         display: none;
+
+          @media #{$sm-device} {
+            position: absolute;
+            display: block;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgb(0, 0, 0);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 1) 55%, rgba(0, 0, 0, 0) 100%);
+            opacity: 0.6;
+            z-index: 100;
+          }
+        }
+
+
+
+img {
+  &:before {
+
+  }
+  max-width: 60%;
+  position: relative;
+  margin-top: -3%;
+
+  @media #{$sm-device} {
+    position: absolute;
+    z-index: 1;
+    bottom:0;
+    max-width: 100%;
+
+  }
+}
+    }
+
+    .btn {
+
+    @media #{$sm-device} {
+      display: block;
+      margin: 10px 15px;
+      max-width: 100%;
+     }
+    }
+
+  }
+
+  .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 23%;
+    left: 0;
+    width: 0%;
+  }
+
+}
+
+.swiper-wrapper {
+
+  @media #{$sm-device} {
+      height: 53vh;
+
+  }
+
+}
+
+@media #{$sm-device} {
+  .swiper-pagination {
+    display: none;
+  }
+}

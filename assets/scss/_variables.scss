@@ -1,0 +1,165 @@
+/*
+ Museo Sans 300
+
+font-family: museo-sans, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Museo Sans 300 Italic
+
+font-family: museo-sans, sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Museo Sans 700
+
+font-family: museo-sans, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Museo Sans 700 Italic
+
+font-family: museo-sans, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Museo Sans Display Light
+
+font-family: museo-sans-display, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Museo Sans Display Black
+
+font-family: museo-sans-display, sans-serif;
+font-weight: 800;
+font-style: normal;
+
+Museo Sans Rounded 300
+
+font-family: museo-sans-rounded, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Museo Sans Rounded 700
+
+font-family: museo-sans-rounded, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Museo Sans Rounded 300 Italic
+
+font-family: museo-sans-rounded, sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Museo Sans Rounded 700 Italic
+
+font-family: museo-sans-rounded, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Museo Sans Cond 300
+
+font-family: museo-sans-condensed, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Museo Sans Cond 300 Italic
+
+font-family: museo-sans-condensed, sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Museo Sans Cond 700
+
+font-family: museo-sans-condensed, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Museo Sans Cond 700 Italic
+
+font-family: museo-sans-condensed, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+*/
+
+
+//== Typography Variable
+$font-family-base: 'museo-sans-rounded', sans-serif;
+$font-font_awesome: 'Font Awesome 5 Free';
+$font-size-base: 1.1rem;
+
+// Site Typography Colors
+$paragraph: #444444;
+$gray-color: #737166;
+$light-gray: #EDEDED;
+$light-white: #f4f5f7;
+$ash-color: #b2beb5 ;
+
+//== Brand Color
+$brand-color: rgba(71, 59, 94, 1);
+$brand-color-dark: darken($brand-color, 15%);
+$brand-color-light: lighten($brand-color, 15%);
+$border-color: #e7e7e7;
+
+//== Alternative Color
+$white: #fff;
+$offwhite: #f4f4f4;
+$black: #000;
+$black-soft: #222222;
+$navy: #3b5998;
+$pink: #ec6ea5;
+$violet: #9933cc;
+$purple: rgba(71, 59, 94, 1);
+$olive: #559137;
+$green: #008000;
+$red: #FF0000;
+$orange: #f5740a;
+$yellow: #fbbf00;
+$gray: #737166;
+$lightgray: #E6E6E6;
+$softblack: #222222;
+$blue: #1B9CBB;
+$overlaybeige: #C6C0BF;
+$overlaybrown: #8E8480;
+$overlayblue: #1697B7;
+$overlaygray: #DFDEDE;
+
+
+// bootstrap.scss - custom variable input values
+$primary_color: #1B9CBB;
+$item_line_height: 24px;
+
+$subnav_item_hover_color: #262626;
+$subnav_item_hover_background: #ddd;
+
+$subnav_item_active_color: #fff;
+$subnav_item_active_background: $primary_color;
+
+$navbar_padding: 0.5rem 1rem;
+$subnav_padding: 0.5rem;
+
+
+
+//== Social Media Icons Color
+$facebook: #3B5999;
+$twitter: #1DA1F2;
+$pinterest: #CB2028;
+$youtube: #CC332D;
+$reddit: #FF4500;
+
+//== Responsive Variables
+$xlmax-device: 'only screen and (min-width: 1200px) and (max-width: 1599.98px)';
+$xl-device: 'only screen and (min-width: 1200px)';
+$lg-device: 'only screen and (min-width: 1081px) and (max-width: 1199.98px)';
+$ipad: 'only screen and (min-width: 992px) and (max-width: 1080.98px)';
+$galaxy: 'only screen and (min-width: 411.98px) and (max-width: 569.98px)';
+$md-device: 'only screen and (min-width: 768px) and (max-width: 991.98px)';
+$sm-device: 'only screen and (max-width: 767.98px)';
+$xs-device: 'only screen and (max-width: 575.98px)';
+$xxs-device: 'only screen and (max-width: 479.98px)';
+$xxxs-device: 'only screen and (max-width: 369.98px)';
+$xxxxs-device: 'only screen and (max-width: 320.98px)';
+$iphone6: 'only screen and (max-width: 375.98px) and (min-width: 370px)';

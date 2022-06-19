@@ -1,0 +1,25 @@
+.sliderWrapper  {
+  height: 545px!important;
+  @media #{$sm-device} {
+    max-height:100%!important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .sliderWrapper {
+    height: 500px !important;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .sliderWrapper {
+    height: 80vh !important;
+    width: 100vw !important;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .sliderWrapper {
+    height: 80vh !important;
+    width: 100vw !important;
+  }
+}

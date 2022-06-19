@@ -1,0 +1,94 @@
+
+.circle-blocks {
+  padding:12px;
+  object-fit: contain;
+
+  img {
+    max-width: 90%;
+  }
+
+  @media #{$lg-device} {
+    margin:0 40px
+  }
+  @media #{$ipad} {
+    padding:50px;
+  }
+
+  @media #{$sm-device} {
+
+    max-height: 60px;
+    padding:10px 0;
+
+    img {display: none;}
+  }
+
+  p {
+    padding: 0 15px;
+    text-align: center;
+  }
+}
+
+.circle-button {
+
+  a.bg-grey {
+    color: $purple;
+    min-width: 300px;
+    font-weight: 700;
+
+    &:hover {
+      background-color: $purple;
+      color: white;
+    }
+
+  }
+
+  a.bg-purple {
+    color: white;
+    min-width: 300px;
+    font-weight: 700;
+
+    &:hover {
+      background-color: $yellow;
+      color: $purple;
+    }
+
+  }
+
+  a.bg-blue {
+    color: white;
+    min-width: 300px;
+    font-weight: 700;
+
+    &:hover {
+      background-color: $purple;
+      color: white;
+    }
+
+  }
+
+  a.bg-yellow {
+    color: $purple;
+    min-width: 300px;
+    font-weight: 700;
+
+    &:hover {
+      background-color: $purple;
+      color: white;
+    }
+
+  }
+
+}
+
+
+
+/* Safari 10.1+ */
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+
+  .circle-blocks {
+    height: 80%;
+  }
+}}
+

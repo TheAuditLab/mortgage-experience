@@ -1,0 +1,177 @@
+.tabbedcontentblock {
+
+  position: relative;
+  min-height: 330px;
+  background: $brand-color url("/wp-content/uploads/2021/11/me-tabs-bg.png") 10% 50% no-repeat;
+  background-size: 40%;
+  padding-top: 80px;
+
+
+  min-height: 350px;
+  @media #{$sm-device} {
+    background-size: 0%;
+  }
+
+  .tabsImage {
+
+    @media #{$sm-device, $md-device, $lg-device} {
+      display: none;
+    }
+    img {
+      position: absolute;
+      max-width: 29.1rem;
+      top:-50%;
+      @media #{$ipad} {
+        max-width: 34rem;
+      }
+    }
+
+  }
+  .tabimageone {
+    img {
+      top: -38.05%;
+      @media #{$ipad} {
+        top: 0;
+        left: -100px;
+      }
+    }
+  }
+  .tabimagetwo {
+    img {
+      top:-41.3%;
+      @media #{$ipad} {
+        top: 0;
+        left: -100px;
+      }
+    }
+
+  }
+.tabs {
+  margin-top: -10.55%;
+  @media #{$lg-device} {
+    margin-top: -14.6%;
+  }
+  @media #{$md-device} {
+    margin-top: -19.7%;
+  }
+  @media #{$sm-device} {
+    margin-top: -27.5%;
+  }
+  @media #{$xxs-device} {
+    margin-top: -37.2%;
+  }
+  @media #{$iphone6} {
+    margin-top: -41.9%;
+  }
+  @media #{$xxxs-device} {
+    margin-top: -43.7% ;
+  }
+  @media #{$ipad} {
+    margin-top: -14.6%;
+  }
+
+
+}
+  .tabs > div {
+    /*border-top: 1px solid #c7c7c7*/
+    margin: 1% 0 0 35%;
+    color: $white;
+    padding:20px 10px;
+
+    @media #{$sm-device, $md-device} {
+      margin:0;
+    }
+
+  }
+
+.no-margin {
+    margin: 1% 0 0 0% !important;
+  }
+
+  .tabs ul.horizontal {
+    list-style: none outside none;
+    margin: -3.6rem 0 0 35%;
+
+
+    @media #{$md-device} {
+      margin: -3.6rem 0 0 5%;
+    }
+    @media #{$sm-device} {
+      margin:0;
+    }
+  }
+
+  .tabs li {
+    background: $lightgray;
+    margin: 0 1px 0 0;
+    display: inline-block;
+    -webkit-border-top-left-radius: 26px;
+    -webkit-border-top-right-radius: 26px;
+    -moz-border-radius-topleft: 26px;
+    -moz-border-radius-topright: 26px;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+
+    @media #{$sm-device} {
+     font-size: 1rem;
+      max-width: 49.5%;
+    }
+  }
+
+  .tabs a {
+    color: $brand-color;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 24px;
+    text-decoration: none;
+
+    @media #{$sm-device} {
+      font-size: 12px;
+      padding: 14px 6px;
+    }
+    @media #{$xxs-device} {
+      font-size: 1rem;
+      padding: 14px 12px;
+      line-height: 1.22;
+    }
+  }
+
+  .tabs li:hover {
+    background: $brand-color;
+  }
+
+  .tabs li:hover a {
+    color:$white;
+  }
+
+  .active {
+    background:$brand-color !important;
+  }
+
+  .active a {
+    color: $white !important;
+  }
+
+  .link {
+    color: $white;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 48px;
+    margin-top: 20px;
+    margin-left: 6px;
+    text-decoration: none;
+  }
+
+  .link:hover {
+    text-decoration: underline;
+    color: inherit;
+  }
+
+.tab-content {
+    padding: 30px 0;
+  }
+
+}
+

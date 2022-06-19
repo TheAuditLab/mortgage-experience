@@ -1,0 +1,94 @@
+.left-image-block {
+h3 {
+  margin: 0;
+padding-bottom: 15px;
+}
+img {
+  @media #{$sm-device, $md-device} {
+    padding:10px 50px
+  }
+
+}
+    a.bg-brand {
+      color: white;
+      min-width: 300px;
+      font-weight: 700;
+
+      @media #{$sm-device} {
+        margin: 0 0;
+        min-width: 100%;
+      }
+
+
+      &:hover {
+        background-color: $yellow;
+        color: $purple;
+      }
+
+    }
+  @media #{$sm-device} {
+    .orderBlocks1 {
+      order: 1;
+    }
+    .orderBlocks2 {
+      order: 2;
+    }
+  }
+
+  .l-r-button {
+    @media #{$sm-device} {
+      display: flex;
+    }
+
+  }
+
+  }
+
+.right-image-block {
+
+  h3 {
+    margin: 0;
+    padding-bottom: 15px;
+  }
+  img {
+    @media #{$sm-device, $md-device} {
+      padding:10px 50px
+    }
+  }
+
+    a.bg-brand {
+      color: white;
+      min-width: 300px;
+      font-weight: 700;
+
+      @media #{$sm-device} {
+        margin: 0 0;
+        min-width: 100%;
+      }
+
+      &:hover {
+        background-color: $yellow;
+        color: $purple;
+      }
+
+    }
+  @media #{$sm-device} {
+    .orderBlocks3 {
+      order: 3;
+    }
+    .orderBlocks4 {
+      order: 4;
+    }
+    img {
+      display: none;
+    }
+  }
+
+  .l-r-button {
+    @media #{$sm-device} {
+      display: flex;
+    }
+
+  }
+  }
+

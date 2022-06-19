@@ -1,0 +1,233 @@
+  .page-banner {
+    position: relative;
+    border-bottom: 14px solid $purple;
+    overflow: hidden;
+
+
+    .banner-wrapper {
+      @media #{$sm-device} {
+       // background: url("/wp-content/uploads/2021/09/ME-Logo-Master-Vertical-Stack-White-RGB-1.png") 90% 15% no-repeat;
+        background-size: 100%;
+        width: 100vw;
+        min-height: 70vh;
+      }
+    }
+
+    .pagebannerTrustpilot {
+      padding-top: 15px;
+      margin-left: -252px;
+      @media #{$sm-device} {
+        display: none;
+      }
+      @media #{$md-device} {
+        margin-left: -50px;
+      }
+      @media #{$ipad} {
+        margin-left: -110px;
+      }
+
+    }
+
+    .left-banner-image-right {
+      padding: 40px 30px;
+      margin-top: 2.5%;
+      z-index: 101;
+      margin-bottom: 0;
+      background-color: white;
+
+      @media #{$xs-device} {
+        background-color: transparent !important;
+        position: absolute;
+        bottom: 0;
+      }
+      @media #{$ipad} {
+        padding: 0px 30px;
+        margin-top: 1.5%;
+      }
+
+      img {
+        max-width: 50%;
+        display: inline-block;
+        @media #{$ipad} {
+          width: 100%;
+          height: auto;
+        }
+
+      }
+
+      .button-primary {
+
+      }
+
+      @media #{$sm-device} {
+        padding: 5px 20px 5px 20px;
+
+        img {
+          display: none;
+        }
+      }
+
+      h1 {
+        font-weight: 900;
+        color: $brand-color;
+        margin-bottom: 10px;
+        display: inline-block;
+
+        @media #{$sm-device} {
+          color: $white;
+          margin: 0;
+          font-size: 19px;
+          padding: 0 5px;
+        }
+        @media #{$ipad} {
+          line-height: 1;
+          padding-top: 20px;
+        }
+      }
+
+      p {
+
+        color: $brand-color;
+        padding: 0px 0px 0px 0px;
+        font-size: 1.1rem;
+
+        @media #{$sm-device} {
+          color: $white;
+          padding: 10px 5px 0px 5px;
+          line-height: 1.4;
+        }
+      }
+
+      .slide-button {
+        font-weight: 700;
+        min-width: 225px;
+        max-width: 225px;
+        margin: 10px 10px 0 0;
+
+        @media #{$xs-device} {
+          min-width: 100%;
+        }
+
+        &:hover {
+          background-color: $yellow;
+        }
+      }
+
+    }
+
+    .right-banner-image {
+      padding: -30px 0 0 0;
+      background-image: url("../../dist/img/slider-bg.png");
+      background-size: contain;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      height: 100%;
+      @media #{$sm-device} {
+        z-index: -200;
+      }
+
+      .color-overlay {
+        display: none;
+
+        @media #{$sm-device} {
+          position: absolute;
+          display: block;
+          bottom: 0px;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 100;
+          background: rgb(2, 0, 36);
+          background: -moz-linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0) 75%);
+          background: -webkit-linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0) 75%);
+          background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0) 75%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#000000", GradientType=1);
+        }
+      }
+
+      img {
+        &:before {
+
+        }
+
+        max-width: 80%;
+        position: relative;
+        margin-top: 0;
+        z-index: 1;
+
+        @media #{$xs-device} {
+          position: absolute;
+          z-index: 1;
+          top: 0;
+          width: 100vw;
+          max-width: 100%;
+        }
+        @media #{$xxs-device} {
+          position: absolute;
+          z-index: 1;
+          top: 0;
+          width: 100vw;
+          max-width: 100%;
+        }
+        @media #{$xxxs-device} {
+          position: absolute;
+          z-index: 1;
+          top: 0;
+          max-width: 100vw;
+          width: 100vw;
+        }
+      }
+
+    }
+
+    .full-width-banner {
+      background-size: cover;
+      background-position: 5% 20%;
+      min-height: 500px;
+
+      @media #{$sm-device} {
+        background-size: cover;
+        background-position: 80% 0%;
+        min-height: 60vh;
+        background-repeat: no-repeat;
+
+      }
+
+      .color-overlay {
+        display: none;
+
+        @media #{$sm-device} {
+          position: absolute;
+          display: block;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgb(0, 0, 0);
+          background: linear-gradient(0deg, rgba(0, 0, 0, 1) 55%, rgba(0, 0, 0, 0) 100%);
+          opacity: 0.9;
+          z-index: 100;
+          background-size: cover;
+        }
+      }
+
+      @media #{$sm-device} {
+        .left-banner-image-right {
+          img {
+            display: none;
+            filter: brightness(0) invert(1);
+          }
+        }
+      }
+
+      .left-banner-image-right {
+        @media #{$ipad} {
+          padding: 50px 30px;
+        }
+      }
+
+    }
+  }
+
+
+

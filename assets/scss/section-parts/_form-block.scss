@@ -1,0 +1,167 @@
+.formCTA {
+  position: relative;
+  color: white;
+  background: url("/wp-content/uploads/2021/11/me-tabs-bg.png") 90% 50% no-repeat;
+  background-size:40%;
+  width: 100vw;
+
+  @media #{$xs-device} {
+    background-size:100%;
+    margin-left: 0;
+    background-position: 0 80% !important;
+    padding: 0 10px;
+  }
+
+  .formIntro {
+    margin-left:80px;
+
+    @media #{$md-device, $sm-device} {
+      margin-left:0px;
+    }
+  }
+
+  .form_rightImage {
+    img {
+      position: relative;
+      max-width: 75%;
+      margin-top: 0%;
+
+      @media #{$xs-device} {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .me_image {
+    @media #{$xxs-device} {
+      position: absolute;
+      left: 0;
+      margin: 20px 15px;
+    }
+
+
+     img {
+      max-width: 50%;
+      filter: brightness(0) invert(1);
+
+       @media #{$xxs-device} {
+         max-width: 90%;
+       }
+    }
+  }
+  h3 {
+    color: white;
+  }
+  .btn {
+    max-width: 33%;
+  }
+
+  p {
+    @media #{$xxs-device} {
+      padding-top: 80px;
+    }
+    }
+
+}
+.nf-form-content textarea {
+  border-radius: 21px!important;
+}
+.nf-field-element textarea {
+  height: auto!important;
+}
+.nf-after-field {
+  font-size: 0.8rem;
+  @media #{$xs-device} {
+    display: none;
+  }
+
+}
+
+.nf-error.field-wrap .nf-field-element::after {
+  border-radius: 0 2rem 2rem 0rem;
+}
+.nf-form-cont {
+  padding-bottom:30px;
+  margin-left:-10px;
+}
+.nf-cell {
+
+  @media #{$xs-device} {
+    max-height: 70px;
+    width: 100%;
+  }
+}
+
+#request-a-callback {
+  .label-hidden .nf-field-element {
+    @media #{$xs-device} {
+      width: 82vw;
+      margin-right: 15px;
+    }
+
+
+    @media #{$xs-device} {
+      margin-right: 0;
+    }
+  }
+  .nf-form-content {
+    padding: 2px;
+  }
+.nf-form-content .nf-field-container #nf-field-23-wrap .nf-field-element .ninja-forms-field {
+    padding: 0 9.2rem 0 9.2rem;
+  width:auto;
+  @media #{$xs-device} {
+    padding:0;
+    width: 100%;
+  }
+  }
+
+  #nf-field-23 {
+    @media #{$xs-device} {
+      width: 82vw;
+    }
+
+    @media #{$xs-device} {
+      float:none!important;
+    }
+
+  }
+  .nf-form-content .nf-field-container #nf-field-23-wrap {
+    @media #{$xs-device} {
+      float: none!important;
+    }
+    @media #{$xxxs-device} {
+      float: none!important;
+    }
+    @media #{$xxxxs-device} {
+      float: none!important;
+    }
+
+  }
+
+}
+#nf-field-18 {
+
+  @media #{$xs-device} {
+    margin-top:30px;
+  }
+
+}
+
+#nf-form-4-cont {
+  @media #{$xxs-device} {
+    margin-left:-10px;
+  }
+}
+
+#nf-field-4 {
+  @media #{$xs-device} {
+    margin-top:25px;
+  }
+}
+.nf-error-msg, .ninja-forms-req-symbol {
+  padding-top: 20px;
+}
+#nf-form-5-cont {
+  margin-left:0!important;
+}

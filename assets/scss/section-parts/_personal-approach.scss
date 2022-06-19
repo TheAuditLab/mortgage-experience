@@ -1,0 +1,66 @@
+.personal-approach {
+  position: relative;
+  color: white;
+  background: url("../../dist/img/slider-bg.png") 0% 20% no-repeat;
+  background-size: 55%;
+  width: 100vw;
+
+  @media #{$sm-device} {
+    background-size: 100%;
+  }
+
+  img {
+    position: relative;
+    max-width: 75%;
+    margin-top: -15%;
+
+    @media #{$ipad} {
+      max-width: 100%;
+    }
+
+  }
+
+  h3 {
+    color: white;
+  }
+  .btn {
+    max-width: 33%;
+    @media #{$sm-device} {
+      margin: 10px auto 30px auto;
+      min-width: 300px;
+    }
+  }
+  a {
+    font-weight: 600;
+  }
+  @media #{$sm-device} {
+    .approachImage {
+        position: absolute;
+      bottom: 0;
+      left: -20%;
+      z-index: 0;
+      opacity: 0.4;
+      display: none;
+    }
+    .approachCopy {
+
+      position: relative;
+      padding: 20px 10px;
+
+      @media #{$sm-device} {
+        padding: 20px 0px;
+      }
+
+      h3 {
+        text-align: center;
+        padding: 15px;
+      }
+      p {
+        padding: 0 1rem 1rem 2rem;
+        text-align: left;
+      }
+    }
+  }
+
+
+}

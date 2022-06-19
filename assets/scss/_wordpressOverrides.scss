@@ -1,0 +1,132 @@
+.page-wrapper {
+
+}
+.wp-block-image {
+  padding: 0 20px;
+  @media #{$xxs-device} {
+    padding: 0 50px;
+  }
+}
+.wp-block-buttons  {
+  padding: 0 20px;
+}
+
+.advgbbtn-f14c6ea7-94a2-4caa-a8a7-d7e588c694a6 {
+  font-size: 22px;
+  color: #fff !important;
+  background-color: #483C5E !important;
+  margin: 0px 0px 0px 0px !important;
+  padding: 10px 75px 10px 75px;
+  border-width: 1px !important;
+  border-color: #fff !important;
+  border-style: solid !important;
+  border-radius: 50px !important;
+  &:hover {
+    border:none!important;
+  }
+}
+.nf-form-content .listselect-wrap .nf-field-element div, .nf-form-content .ninja-forms-field {
+  border-radius: 21px !important;
+}
+.wp-block-separator {
+   border-top: 0px solid!important;
+  border-bottom: 2px solid $purple;
+}
+
+.mobileCenter {
+  @media #{$xxs-device} {
+    text-align: center;
+  }
+
+}
+.wp-block-separator.is-style-wide {
+  border-bottom-width: 8px;
+}
+
+.advgbbtn-e23b8591-c31f-4fbd-884b-92c55b76c413 {
+
+  @media #{$xxs-device} {
+    font-size: 18px!important;
+  }
+  &:hover {
+    border-width: 0px !important;
+  }
+
+
+}
+
+
+
+.advgb-columns-container {
+  @media #{$xs-device} {
+    margin:0 10px;
+  }
+}
+.advgb-accordion-header-icon {
+  @media #{$xs-device} {
+    position: absolute;
+    right: 40px;
+    top: 25%;
+  }
+}
+
+.advgb-accordion-header {
+  position: relative;
+}
+
+.talkButton {
+  a {
+
+    @media #{$xs-device} {
+
+    }
+  }
+
+}
+
+.nf-multi-cell .nf-cell {
+  float: left;
+  padding: 0 ;
+}
+
+
+.wp-block-advgb-button .wp-block-advgb-button_link {
+  @media #{$xxs-device} {
+  width:90%
+  }
+}
+
+.nf-form-content .list-select-wrap .nf-field-element > div, .nf-form-content input:not([type="button"]), .nf-form-content textarea {
+  background: #f7f7f7;
+  border: 0px solid #c4c4c4;
+  border-radius: 0;
+  box-shadow: none;
+  color: #787878;
+  transition: all .5s;
+}
+
+.accordionSize {
+  @media #{$ipad} {
+    max-width:50% !important;
+  }
+}
+
+#nf-form-6-cont {
+  input {
+    border:2px solid #fff;
+  }
+ }
+
+#nf-field-13-container {
+  input {
+    border:0px solid #fff!important;
+  }
+}
+#nf-field-14, #nf-field-15, #nf-field-16, #nf-field-15 {
+  border-width: 0!important;
+}
+.checkbox-container.label-right label {
+  margin: 0 0 0 30px;
+  display: block;
+  font-size: 0.9em!important;
+}

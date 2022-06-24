@@ -34,6 +34,21 @@
                 <img src='<?php echo $backgroundImg[0]; ?>'>
                 <h4><?php the_title(); ?></h4>
                 <p><?php the_field('advisor_for'); ?></p>
+                <?php if( have_rows('social_field') ): ?>
+                    <div id="social-field">
+                        <div class="social-div">
+                            <?php while( have_rows('social_field') ): the_row(); ?>
+                            <?php $social = get_sub_field('social') ?>
+                            <?php $social_link = get_sub_field('social_link') ?>
+                            <div class="social-details">
+                                <a href="<?php echo $social_link ?>">
+                                    <img src="<?php echo $social ?>">
+                                </a>
+                            </div>
+                            <?php endwhile; ?>
+                        </div>
+                    </div>
+                <?php endif; ?> 
 
             </div>
 

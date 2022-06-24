@@ -15613,7 +15613,6 @@ Start Off Canvas Area Wrapper
 
 .advisors-page-banner .advisor {
   color: white;
-  padding-top: 20%;
   line-height: 1.3;
 }
 
@@ -16571,4 +16570,22 @@ footer .checkmyfile p {
   padding: 0px 0;
   font-size: 0.9rem;
   text-align: right;
+}
+
+.social-div {
+  display: flex;
+}
+
+.social-details {
+  width: 20%;
+}
+
+.social-details img {
+  width: 25px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.advisor a {
+  color: #ffffff;
 }

@@ -110,8 +110,6 @@
                 ?>
 
                 <p class="copyrightMessage">Copyright <span id="year"></span> Mortgage Experience. All Right Reserved. </p>
-                <p class="copyrightMessage">Site design by <a style="color:#fff;" href="https://www.amplifysales.co.uk">Amplify Sales</a> </p>
-                <p class="copyrightMessage"><a style="color:#fff;" href="https://www.amplifysales.co.uk">Wordpress Support</a>  by Amplify WordPress </p>
                 <p style="text-align: right;">Mortgage Experience Limited is registered in England and Wales. Company No. 10428355. Registered Office: Renaissance House, 4 East Terrace Business Park, Euxton Lane, Chorley, PR7 6TB</p>
             </div>
 

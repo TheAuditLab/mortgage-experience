@@ -30,7 +30,7 @@ function my_theme_enqueue_styles()
     );
     wp_enqueue_style(
         'main-style',
-        get_stylesheet_directory_uri() . '/dist/css/style.min.css?v=' . THEME_VERSION,
+        get_stylesheet_directory_uri() . '/assets/css/style.css?v=' . THEME_VERSION,
         array(), null
     );
 

@@ -15564,7 +15564,7 @@ Start Off Canvas Area Wrapper
 
 .advisors-page-banner .arrow-down {
   position: absolute;
-  bottom: -6%;
+  bottom: -5%;
   left: 40%;
   width: 0;
   height: 0;
@@ -15601,7 +15601,7 @@ Start Off Canvas Area Wrapper
   color: white;
   margin-top: -30px;
   line-height: 1.3;
-  padding: 0 10px;
+  padding: 60px;
 }
 
 @media only screen and (max-width: 479.98px) {
@@ -16565,27 +16565,38 @@ footer .checkmyfile p {
 .copyright-statement ul.footer-menu-legal li a:hover {
   color: #1B9CBB;
 }
-
 .copyright-statement .copyrightMessage {
   padding: 0px 0;
   font-size: 0.9rem;
   text-align: right;
 }
-
 .social-div {
   display: flex;
 }
-
 .social-details {
   width: 20%;
 }
-
 .social-details img {
   width: 25px;
   height: 30px;
   object-fit: contain;
 }
-
 .advisor a {
   color: #ffffff;
+}
+.advisor img {
+  margin-bottom: 30px;
+}
+.aboutAdvisor {
+  padding: 100px 0;
+}
+.aboutAdvisor ul {
+  max-width: 230px;
+  margin: 0 auto;
+}
+.aboutAdvisor p {
+  margin-bottom: 25px;
+}
+.advisor img {
+  max-width: 250px;
 }

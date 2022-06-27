@@ -10,11 +10,6 @@
                 <img src="<?php echo get_template_directory_uri();?>/dist/img/ME-Logo_white.svg" width="200" height="300"/>
                 <h1>To make Mortgage Simple</h1>
 
-                <div class="advisorsText desktophide">
-                    <?php the_field('intro_text'); ?>
-
-                </div>
-
                 <div class="advisorsForm no-padding ">
                     <?php
                     $form = get_field( 'select_form' );
@@ -23,14 +18,9 @@
                     }
                     ?>
                 </div>
-                <div class="advisorsText mobilehide">
-                    <?php the_field('intro_text'); ?>
-
-                </div>
-
             </div>
 
-            <div class="col-lg-3  offset-lg-1 advisor">
+            <div class="col-lg-4  offset-lg-1 advisor">
                 <img src='<?php echo $backgroundImg[0]; ?>'>
                 <h4><?php the_title(); ?></h4>
                 <p><?php the_field('advisor_for'); ?></p>
@@ -52,7 +42,25 @@
 
             </div>
 
+            <div class="advisorsText mobilehide">
+                <?php the_field('intro_text'); ?>
+            </div>
+
+            <div class="advisorsText desktophide">
+                <?php the_field('intro_text'); ?>
+            </div>
+
         </div>
     </div>
     <div class="arrow-down mobilehide"></div>
+</section>
+
+<section >
+    <div class="container">
+        <div class="row">
+            <div class="aboutAdvisor mobilehide">
+                <?php the_field('about_advisor'); ?>
+            </div>
+        </div>
+    </div>
 </section>

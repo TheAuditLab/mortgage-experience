@@ -21,7 +21,7 @@
             </div>
 
             <div class="col-lg-4  offset-lg-1 advisor">
-                <img src='<?php echo $backgroundImg[0]; ?>'>
+                <img class="advisor-img" src='<?php echo $backgroundImg[0]; ?>'>
                 <h4><?php the_title(); ?></h4>
                 <p><?php the_field('advisor_for'); ?></p>
                 <?php if( have_rows('social_field') ): ?>

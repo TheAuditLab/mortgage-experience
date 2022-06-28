@@ -16595,6 +16595,9 @@ footer .checkmyfile p {
     padding: 50px 20px;
   }
 }
+.advisor-img {
+  border-radius: 15px;
+}
 .aboutAdvisor ul {
   max-width: 230px;
   margin: 0 auto;

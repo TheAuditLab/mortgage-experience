@@ -41,15 +41,15 @@
                 <?php endif; ?> 
 
             </div>
+            <div class="col-12">
+                <div class="advisorsText mobilehide">
+                    <?php the_field('intro_text'); ?>
+                </div>
 
-            <div class="advisorsText mobilehide">
-                <?php the_field('intro_text'); ?>
+                <div class="advisorsText desktophide">
+                    <?php the_field('intro_text'); ?>
+                </div>
             </div>
-
-            <div class="advisorsText desktophide">
-                <?php the_field('intro_text'); ?>
-            </div>
-
         </div>
     </div>
     <div class="arrow-down mobilehide"></div>
@@ -58,7 +58,7 @@
 <section >
     <div class="container">
         <div class="row">
-            <div class="aboutAdvisor mobilehide">
+            <div class="aboutAdvisor">
                 <?php the_field('about_advisor'); ?>
             </div>
         </div>

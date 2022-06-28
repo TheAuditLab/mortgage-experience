@@ -15521,7 +15521,7 @@ Start Off Canvas Area Wrapper
 @media only screen and (max-width: 767.98px) {
   .advisors-page-banner {
     background-size: 100%;
-    padding-bottom: 100%;
+    padding-bottom: 20%;
     position: relative;
   }
 }
@@ -15619,7 +15619,6 @@ Start Off Canvas Area Wrapper
 @media only screen and (max-width: 767.98px) {
   .advisors-page-banner .advisor {
     max-width: 70%;
-    position: absolute;
     bottom: 0;
     padding-left: 20px;
     padding-bottom: 5%;
@@ -15768,8 +15767,8 @@ Start Off Canvas Area Wrapper
 
 .first-step .wrapper .mobile-left-image img {
   position: relative !important;
-  width: 120vw !important;
-  max-width: 120vw !important;
+  width: 100vw !important;
+  max-width: 100vw !important;
   left: -15% !important;
 }
 
@@ -16586,17 +16585,25 @@ footer .checkmyfile p {
 }
 .advisor img {
   margin-bottom: 30px;
+  max-width: 250px;
+  border-radius: 15px;
 }
 .aboutAdvisor {
-  padding: 100px 0;
+  padding: 100px 20px;
+}
+@media only screen and (max-width: 768px) {
+  .aboutAdvisor {
+    padding: 50px 20px;
+  }
 }
 .aboutAdvisor ul {
   max-width: 230px;
   margin: 0 auto;
 }
+.aboutAdvisor h2 {
+  margin-top: 45px;
+}
 .aboutAdvisor p {
   margin-bottom: 25px;
 }
-.advisor img {
-  max-width: 250px;
-}
+
